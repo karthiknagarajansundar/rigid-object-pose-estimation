@@ -8,9 +8,9 @@ these objects, relative to the camera. Initially, the provided noisy corresponde
 Random images for comparison. Ground truth poses are represented by lightblue while the estimations are represented as darkblue.
 
 ### Primary object pose estimation
-<img src="https://github.com/karthiknagarajansundar/rigid-object-pose-estimation/blob/main/Images/img3_Ransac.jpg" width="250" height="250"> <img src="https://github.com/karthiknagarajansundar/rigid-object-pose-estimation/blob/main/Images/img6_Ransac.jpg" width="250" height="250"> <img src="https://github.com/karthiknagarajansundar/rigid-object-pose-estimation/blob/main/Images/img9_Ransac.jpg" width="250" height="250">
+<img src="https://github.com/karthiknagarajansundar/rigid-object-pose-estimation/blob/main/Images/img1_Ransac.jpg" width="250" height="250"> <img src="https://github.com/karthiknagarajansundar/rigid-object-pose-estimation/blob/main/Images/img3_Ransac.jpg" width="250" height="250"> <img src="https://github.com/karthiknagarajansundar/rigid-object-pose-estimation/blob/main/Images/img6_Ransac.jpg" width="250" height="250">
 
 ### Refined object pose estimation
-<img src="https://github.com/karthiknagarajansundar/rigid-object-pose-estimation/blob/main/Images/img3_lm.jpg" width="250" height="250"><img src="https://github.com/karthiknagarajansundar/rigid-object-pose-estimation/blob/main/Images/img6_lm.jpg" width="250" height="250"><img src="https://github.com/karthiknagarajansundar/rigid-object-pose-estimation/blob/main/Images/img9_lm.jpg" width="250" height="250"> 
+<img src="https://github.com/karthiknagarajansundar/rigid-object-pose-estimation/blob/main/Images/img1_lm.jpg" width="250" height="250"><img src="https://github.com/karthiknagarajansundar/rigid-object-pose-estimation/blob/main/Images/img3_lm.jpg" width="250" height="250"><img src="https://github.com/karthiknagarajansundar/rigid-object-pose-estimation/blob/main/Images/img6_lm.jpg" width="250" height="250"> 
 
 All results on both primary and refined object pose estimations can be found [here](https://github.com/karthiknagarajansundar/rigid-object-pose-estimation/tree/main/Images).
