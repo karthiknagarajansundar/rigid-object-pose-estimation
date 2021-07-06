@@ -1,4 +1,4 @@
-# rigid-object-pose-estimation
+# Rigid Object Pose Estimation
 
 ## Objective
 Given 9 RGB images that contains 7 objects in each of the image along with a set of dense 2D-3D correspondences, the task is to estimate the pose of each of
