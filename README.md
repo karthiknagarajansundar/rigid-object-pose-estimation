@@ -14,3 +14,13 @@ Random images for comparison. Ground truth poses are represented by lightblue wh
 <img src="https://github.com/karthiknagarajansundar/rigid-object-pose-estimation/blob/main/Images/img1_lm.jpg" width="250" height="250"><img src="https://github.com/karthiknagarajansundar/rigid-object-pose-estimation/blob/main/Images/img3_lm.jpg" width="250" height="250"><img src="https://github.com/karthiknagarajansundar/rigid-object-pose-estimation/blob/main/Images/img6_lm.jpg" width="250" height="250"> 
 
 All results on both primary and refined object pose estimations can be found [here](https://github.com/karthiknagarajansundar/rigid-object-pose-estimation/tree/main/Images).
+
+## See Also: Computer Vision Projects
+Using two or more partly overlapping images, the goal is to place them on top of each other for creating panoramas (image stitching).
+
+Steps:
+* Using VLfeat to compute SIFT features for both images and match them
+* Find a homography describing the transformation between the two images using DLT with a minimal number of points needed
+* Because not all matches are correct, RANSAC is used to find a set of good correspondences (inliers).
+
+<img src="https://github.com/karthiknagarajansundar/rigid-object-pose-estimation/blob/main/Images/ImageStitching.JPG" width="1000" height="300">
